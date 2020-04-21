@@ -1,7 +1,5 @@
 vertices
 (
-
-
 	(0.000  0.000  0.000)	 //vertex 0
 	(6.900  0.000  0.000)	 //vertex 1
 	(11.500  0.000  0.000)	 //vertex 2
@@ -259,7 +257,8 @@ vertices
 );
 
 
-blocks(
+blocks
+(
 	hex (0 1 47 46 120 121 167 166) 	($plateauX_nC $surfaceY_nC 1) 	simpleGrading (1 $b_grading_y 1)      	//riblet 0, block 0
 	hex (1 2 48 47 121 122 168 167) 	($ribletX_nC $surfaceY_nC 1) 	simpleGrading ($l_grading_x $b_grading_y 1)      	//riblet 0, block 1
 	hex (3 4 49 48 123 124 169 168) 	($ribletX_nC $surfaceY_nC 1) 	simpleGrading ($r_grading_x $b_grading_y 1)      	//riblet 0, block 2
