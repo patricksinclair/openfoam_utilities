@@ -1,0 +1,284 @@
+vertices
+(
+	(0.000  0.000  0.000)	 //vertex 0
+	(6.900  0.000  0.000)	 //vertex 1
+	(11.500  0.000  0.000)	 //vertex 2
+	(43.745  0.000  0.000)	 //vertex 3
+	(48.345  0.000  0.000)	 //vertex 4
+	(55.245  0.000  0.000)	 //vertex 5
+	(62.145  0.000  0.000)	 //vertex 6
+	(66.745  0.000  0.000)	 //vertex 7
+	(98.989  0.000  0.000)	 //vertex 8
+	(103.589  0.000  0.000)	 //vertex 9
+	(110.489  0.000  0.000)	 //vertex 10
+	(117.389  0.000  0.000)	 //vertex 11
+	(121.989  0.000  0.000)	 //vertex 12
+	(154.234  0.000  0.000)	 //vertex 13
+	(158.834  0.000  0.000)	 //vertex 14
+	(165.734  0.000  0.000)	 //vertex 15
+	(0.000  42.000  0.000)	 //vertex 16
+	(6.900  42.000  0.000)	 //vertex 17
+	(27.622  42.000  0.000)	 //vertex 18
+	(48.345  42.000  0.000)	 //vertex 19
+	(55.245  42.000  0.000)	 //vertex 20
+	(62.145  42.000  0.000)	 //vertex 21
+	(82.867  42.000  0.000)	 //vertex 22
+	(103.589  42.000  0.000)	 //vertex 23
+	(110.489  42.000  0.000)	 //vertex 24
+	(117.389  42.000  0.000)	 //vertex 25
+	(138.111  42.000  0.000)	 //vertex 26
+	(158.834  42.000  0.000)	 //vertex 27
+	(165.734  42.000  0.000)	 //vertex 28
+	(0.000  200.000  0.000)	 //vertex 29
+	(6.900  200.000  0.000)	 //vertex 30
+	(27.622  200.000  0.000)	 //vertex 31
+	(48.345  200.000  0.000)	 //vertex 32
+	(55.245  200.000  0.000)	 //vertex 33
+	(62.145  200.000  0.000)	 //vertex 34
+	(82.867  200.000  0.000)	 //vertex 35
+	(103.589  200.000  0.000)	 //vertex 36
+	(110.489  200.000  0.000)	 //vertex 37
+	(117.389  200.000  0.000)	 //vertex 38
+	(138.111  200.000  0.000)	 //vertex 39
+	(158.834  200.000  0.000)	 //vertex 40
+	(165.734  200.000  0.000)	 //vertex 41
+	(0.000  0.000  0.100)	 //vertex 42
+	(6.900  0.000  0.100)	 //vertex 43
+	(11.500  0.000  0.100)	 //vertex 44
+	(43.745  0.000  0.100)	 //vertex 45
+	(48.345  0.000  0.100)	 //vertex 46
+	(55.245  0.000  0.100)	 //vertex 47
+	(62.145  0.000  0.100)	 //vertex 48
+	(66.745  0.000  0.100)	 //vertex 49
+	(98.989  0.000  0.100)	 //vertex 50
+	(103.589  0.000  0.100)	 //vertex 51
+	(110.489  0.000  0.100)	 //vertex 52
+	(117.389  0.000  0.100)	 //vertex 53
+	(121.989  0.000  0.100)	 //vertex 54
+	(154.234  0.000  0.100)	 //vertex 55
+	(158.834  0.000  0.100)	 //vertex 56
+	(165.734  0.000  0.100)	 //vertex 57
+	(0.000  42.000  0.100)	 //vertex 58
+	(6.900  42.000  0.100)	 //vertex 59
+	(27.622  42.000  0.100)	 //vertex 60
+	(48.345  42.000  0.100)	 //vertex 61
+	(55.245  42.000  0.100)	 //vertex 62
+	(62.145  42.000  0.100)	 //vertex 63
+	(82.867  42.000  0.100)	 //vertex 64
+	(103.589  42.000  0.100)	 //vertex 65
+	(110.489  42.000  0.100)	 //vertex 66
+	(117.389  42.000  0.100)	 //vertex 67
+	(138.111  42.000  0.100)	 //vertex 68
+	(158.834  42.000  0.100)	 //vertex 69
+	(165.734  42.000  0.100)	 //vertex 70
+	(0.000  200.000  0.100)	 //vertex 71
+	(6.900  200.000  0.100)	 //vertex 72
+	(27.622  200.000  0.100)	 //vertex 73
+	(48.345  200.000  0.100)	 //vertex 74
+	(55.245  200.000  0.100)	 //vertex 75
+	(62.145  200.000  0.100)	 //vertex 76
+	(82.867  200.000  0.100)	 //vertex 77
+	(103.589  200.000  0.100)	 //vertex 78
+	(110.489  200.000  0.100)	 //vertex 79
+	(117.389  200.000  0.100)	 //vertex 80
+	(138.111  200.000  0.100)	 //vertex 81
+	(158.834  200.000  0.100)	 //vertex 82
+	(165.734  200.000  0.100)	 //vertex 83
+
+	(-100.000  0.000  0.000)	 //(edge block) vertex 0
+	(-100.000  42.000  0.000)	 //(edge block) vertex 1
+	(-100.000  200.000  0.000)	 //(edge block) vertex 2
+	(-100.000  0.000  0.100)	 //(edge block) vertex 3
+	(-100.000  42.000  0.100)	 //(edge block) vertex 4
+	(-100.000  200.000  0.100)	 //(edge block) vertex 5
+	(265.734  0.000  0.000)	 //(edge block) vertex 6
+	(265.734  42.000  0.000)	 //(edge block) vertex 7
+	(265.734  200.000  0.000)	 //(edge block) vertex 8
+	(265.734  0.000  0.100)	 //(edge block) vertex 9
+	(265.734  42.000  0.100)	 //(edge block) vertex 10
+	(265.734  200.000  0.100)	 //(edge block) vertex 11
+
+);
+
+
+blocks
+(
+	hex (0 1 17 16 42 43 59 58) 	($plateauX_nC $surfaceY_nC 1) 	simpleGrading (1 $b_grading_y $z_grading)      	//riblet 0, block 0
+	hex (1 2 18 17 43 44 60 59) 	($ribletX_nC $surfaceY_nC 1) 	simpleGrading ($l_grading_x $b_grading_y $z_grading)      	//riblet 0, block 1
+	hex (3 4 19 18 45 46 61 60) 	($ribletX_nC $surfaceY_nC 1) 	simpleGrading ($r_grading_x $b_grading_y $z_grading)      	//riblet 0, block 2
+	hex (4 5 20 19 46 47 62 61) 	($plateauX_nC $surfaceY_nC 1) 	simpleGrading (1 $b_grading_y $z_grading)      	//riblet 0, block 3
+	hex (16 17 30 29 58 59 72 71) 	($plateauX_nC $fluidY_nC 1) 	simpleGrading (1 $t_grading_y $z_grading)      	//riblet 0, block 4
+	hex (17 18 31 30 59 60 73 72) 	($ribletX_nC $fluidY_nC 1) 	simpleGrading ($l_grading_x $t_grading_y $z_grading)      	//riblet 0, block 5
+	hex (18 19 32 31 60 61 74 73) 	($ribletX_nC $fluidY_nC 1) 	simpleGrading ($r_grading_x $t_grading_y $z_grading)      	//riblet 0, block 6
+	hex (19 20 33 32 61 62 75 74) 	($plateauX_nC $fluidY_nC 1) 	simpleGrading (1 $t_grading_y $z_grading)      	//riblet 0, block 7
+
+	hex (5 6 21 20 47 48 63 62) 	($plateauX_nC $surfaceY_nC 1) 	simpleGrading (1 $b_grading_y $z_grading)      	//riblet 1, block 0
+	hex (6 7 22 21 48 49 64 63) 	($ribletX_nC $surfaceY_nC 1) 	simpleGrading ($l_grading_x $b_grading_y $z_grading)      	//riblet 1, block 1
+	hex (8 9 23 22 50 51 65 64) 	($ribletX_nC $surfaceY_nC 1) 	simpleGrading ($r_grading_x $b_grading_y $z_grading)      	//riblet 1, block 2
+	hex (9 10 24 23 51 52 66 65) 	($plateauX_nC $surfaceY_nC 1) 	simpleGrading (1 $b_grading_y $z_grading)      	//riblet 1, block 3
+	hex (20 21 34 33 62 63 76 75) 	($plateauX_nC $fluidY_nC 1) 	simpleGrading (1 $t_grading_y $z_grading)      	//riblet 1, block 4
+	hex (21 22 35 34 63 64 77 76) 	($ribletX_nC $fluidY_nC 1) 	simpleGrading ($l_grading_x $t_grading_y $z_grading)      	//riblet 1, block 5
+	hex (22 23 36 35 64 65 78 77) 	($ribletX_nC $fluidY_nC 1) 	simpleGrading ($r_grading_x $t_grading_y $z_grading)      	//riblet 1, block 6
+	hex (23 24 37 36 65 66 79 78) 	($plateauX_nC $fluidY_nC 1) 	simpleGrading (1 $t_grading_y $z_grading)      	//riblet 1, block 7
+
+	hex (10 11 25 24 52 53 67 66) 	($plateauX_nC $surfaceY_nC 1) 	simpleGrading (1 $b_grading_y $z_grading)      	//riblet 2, block 0
+	hex (11 12 26 25 53 54 68 67) 	($ribletX_nC $surfaceY_nC 1) 	simpleGrading ($l_grading_x $b_grading_y $z_grading)      	//riblet 2, block 1
+	hex (13 14 27 26 55 56 69 68) 	($ribletX_nC $surfaceY_nC 1) 	simpleGrading ($r_grading_x $b_grading_y $z_grading)      	//riblet 2, block 2
+	hex (14 15 28 27 56 57 70 69) 	($plateauX_nC $surfaceY_nC 1) 	simpleGrading (1 $b_grading_y $z_grading)      	//riblet 2, block 3
+	hex (24 25 38 37 66 67 80 79) 	($plateauX_nC $fluidY_nC 1) 	simpleGrading (1 $t_grading_y $z_grading)      	//riblet 2, block 4
+	hex (25 26 39 38 67 68 81 80) 	($ribletX_nC $fluidY_nC 1) 	simpleGrading ($l_grading_x $t_grading_y $z_grading)      	//riblet 2, block 5
+	hex (26 27 40 39 68 69 82 81) 	($ribletX_nC $fluidY_nC 1) 	simpleGrading ($r_grading_x $t_grading_y $z_grading)      	//riblet 2, block 6
+	hex (27 28 41 40 69 70 83 82) 	($plateauX_nC $fluidY_nC 1) 	simpleGrading (1 $t_grading_y $z_grading)      	//riblet 2, block 7
+
+	hex (84 0 16 85 87 42 58 88) 	($LBlockX_nC $surfaceY_nC 1) 	simpleGrading ($inlet_xGrading $b_grading_y 1)        	//LHS, block 0
+	hex (85 16 29 86 88 58 71 89) 	($LBlockX_nC $fluidY_nC 1) 	simpleGrading ($inlet_xGrading $t_grading_y 1)        	//LHS, block 1
+	hex (15 90 91 28 57 93 94 70) 	($RBlockX_nC $surfaceY_nC 1) 	simpleGrading ($outlet_xGrading $b_grading_y 1)        	//RHS, block 0
+	hex (28 91 92 41 70 94 95 83) 	($RBlockX_nC $fluidY_nC 1) 	simpleGrading ($outlet_xGrading $t_grading_y 1)        	//RHS, block 1
+
+);
+
+
+edges();
+
+
+boundary
+(
+	leftWall
+	{
+		type patch;
+		faces
+		(
+		(84 85 88 87)
+		(85 86 89 88)
+		);
+	}
+
+
+	rightWall
+	{
+		type patch;
+		faces
+		(
+		(90 93 94 91)
+		(91 94 95 92)
+		);
+	}
+
+	lowerWall
+	{
+		type wall;
+		faces
+		(
+		(0 42 43 1)
+		(1 43 44 2)
+		(2 44 60 18)
+		(18 60 45 3)
+		(3 45 46 4)
+		(4 46 47 5)
+		(5 47 48 6)
+		(6 48 49 7)
+		(7 49 64 22)
+		(22 64 50 8)
+		(8 50 51 9)
+		(9 51 52 10)
+		(10 52 53 11)
+		(11 53 54 12)
+		(12 54 68 26)
+		(26 68 55 13)
+		(13 55 56 14)
+		(14 56 57 15)
+		(84 87 42 0)
+		(15 57 93 90)
+		);
+	}
+
+	upperWall
+	{
+		type patch;
+		faces
+		(
+		(29 30 72 71)
+		(30 31 73 72)
+		(31 32 74 73)
+		(32 33 75 74)
+		(33 34 76 75)
+		(34 35 77 76)
+		(35 36 78 77)
+		(36 37 79 78)
+		(37 38 80 79)
+		(38 39 81 80)
+		(39 40 82 81)
+		(40 41 83 82)
+		(86 29 71 89)
+		(41 92 95 83)
+		);
+	}
+
+	frontWall
+	{
+		type patch;
+		faces
+		(
+		(0 1 17 16)
+		(1 2 18 17)
+		(3 4 19 18)
+		(4 5 20 19)
+		(16 17 30 29)
+		(17 18 31 30)
+		(18 19 32 31)
+		(19 20 33 32)
+		(5 6 21 20)
+		(6 7 22 21)
+		(8 9 23 22)
+		(9 10 24 23)
+		(20 21 34 33)
+		(21 22 35 34)
+		(22 23 36 35)
+		(23 24 37 36)
+		(10 11 25 24)
+		(11 12 26 25)
+		(13 14 27 26)
+		(14 15 28 27)
+		(24 25 38 37)
+		(25 26 39 38)
+		(26 27 40 39)
+		(27 28 41 40)
+		);
+	}
+
+	backWall
+	{
+		type patch;
+		faces
+		(
+		(43 42 58 59)
+		(44 43 59 60)
+		(46 45 60 61)
+		(47 46 61 62)
+		(59 58 71 72)
+		(60 59 72 73)
+		(61 60 73 74)
+		(62 61 74 75)
+		(48 47 62 63)
+		(49 48 63 64)
+		(51 50 64 65)
+		(52 51 65 66)
+		(63 62 75 76)
+		(64 63 76 77)
+		(65 64 77 78)
+		(66 65 78 79)
+		(53 52 66 67)
+		(54 53 67 68)
+		(56 55 68 69)
+		(57 56 69 70)
+		(67 66 79 80)
+		(68 67 80 81)
+		(69 68 81 82)
+		(70 69 82 83)
+		);
+	}
+);
+
+
+mergePatchPairs();
+
