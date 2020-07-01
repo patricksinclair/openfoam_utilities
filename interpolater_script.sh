@@ -13,7 +13,7 @@ foamListTimes -rm
 #rm 0/alpha.biofilm
 setFields
 
-for t in $(seq 0.1 0.1 30);
+for t in $(seq 0 0.1 30);
 do
 
   #this removes the .0 from certain values of t, so that t is consisten with OpenFOAM
