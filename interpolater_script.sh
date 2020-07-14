@@ -1,9 +1,10 @@
 #!/bin/bash
 
 #MAKE SURE THAT STARTFROM IN THE CONTROLDICT IS SET TO LATEST TIME
+#ALSO MAKE SURE THAT THAT 0/alpha.biofilm IN THE SOURCE DIRECTORY HAS BEEN DELETED
+#ALSO MAKE SURE THAT THE TIME SEQUENCE IS CORRECT.
 
-dynamicMeshFilePath='../../d_92_thickBiofilm/quad_riblet/'
-#dynamicMeshTime0='../../d_92_thickBiofilm/quad_riblet/
+dynamicMeshFilePath='../../d_23_thickBF/3D_riblet/'
 dynamicMeshTime0="$dynamicMeshFilePath/0"
 
 
@@ -13,7 +14,7 @@ foamListTimes -rm
 #rm 0/alpha.biofilm
 setFields
 
-for t in $(seq 0 0.1 30);
+for t in $(seq 0 0.2 15);
 do
 
   #this removes the .0 from certain values of t, so that t is consisten with OpenFOAM
@@ -28,6 +29,10 @@ do
 
   mapFields -consistent -sourceTime $t $dynamicMeshFilePath -mapMethod mapNearest
   
-
 done
+
+#make directories to save the volume/surface integral raw data in, as well as one for the processed integral data
+mkdir surface_data
+mkdir volume_data
+mkdir integral_results
 
