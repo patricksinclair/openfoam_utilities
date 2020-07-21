@@ -39,3 +39,11 @@ mkdir surface_data
 mkdir volume_data
 mkdir integral_results
 
+#convert from binary to ascii
+sed -i '/writeFormat/c\writeFormat     ascii;' system/controlDict 
+foamFormatConvert
+
+#run the postProcess utility to get the velocity gradient
+postProcess -func "grad(U)"
+
+
