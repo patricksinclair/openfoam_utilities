@@ -4,7 +4,10 @@
 #ALSO MAKE SURE THAT THAT 0/alpha.biofilm IN THE SOURCE DIRECTORY HAS BEEN DELETED
 #ALSO MAKE SURE THAT THE TIME SEQUENCE IS CORRECT.
 
-dynamicMeshFilePath='../../d_23_thickBF/3D_riblet/'
+sed -i '/startFrom/c\startFrom       latestTime;' system/controlDict #makes sure that mapfields maps to the latest time directory
+
+
+dynamicMeshFilePath='../../d_23_thickBF/3D_riblet'
 dynamicMeshTime0="$dynamicMeshFilePath/0"
 
 
