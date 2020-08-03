@@ -15,6 +15,7 @@
 delta_t = 0.2
 t_max = 15
 n_steps = int(t_max/delta_t)
+directory_name = 'all_surface_data'
 
 #### import the simple module from the paraview
 from paraview.simple import *
@@ -71,7 +72,7 @@ spreadSheetView1.HiddenColumnLabels = ['Cell Type']
 for i in range(n_steps+1):
     t_val = delta_t*i
     # export view
-    ExportView('surface_data/surface_data-t='+str(t_val)+'.csv', view=spreadSheetView1)
+    ExportView(directory_name+'/surface_data-t='+str(t_val)+'.csv', view=spreadSheetView1)
     # get animation scene
     animationScene1 = GetAnimationScene()
     animationScene1.GoToNext()
