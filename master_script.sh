@@ -11,6 +11,13 @@ dynamicMeshTime0="$dynamicMeshFilePath/0"
 t_final=15
 delta_t=0.2
 
+# --- End Definitions Section ---
+# check if we are being sourced by another script or shell
+#this allows us to take the variables in this script and use them elsewhere
+#by sourcing this script, but it doesn't run anything below this next line
+[[ "${#BASH_SOURCE[@]}" -gt "1" ]] && { return 0; }
+# --- Begin Code Execution Section ---
+
 
 sed -i '/startFrom/c\startFrom       latestTime;' system/controlDict #makes sure that mapfields maps to the latest time directory
 #remove the alpha.biofilm from the source 0 directory
@@ -47,6 +54,6 @@ foamFormatConvert
 #run the postProcess utility to get the velocity gradient
 postProcess -func "grad(U)"
 #calculate the time derivatives
-python dUdt_calculator.py $t_max $delta_t
+python dUdt_calculator.py $t_final $delta_t
 #open ParaView to generate the csv files
 paraFoam &
