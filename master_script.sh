@@ -4,11 +4,13 @@
 
 #START BY MAKING A COPY OF THE DYNAMIC MESH SOURCE DATA INTO A NEW DIRECTORY
 #RUN THIS SCRIPT IN THE NEW COPIED DIRECTORY
+#MAKE SURE dUdt_calculator HAS THE RIGHT BOUNDARY NAMES IN IT
 
 #MAKE SURE THAT THE FILEPATH TO THE SOURCE DATA IS CORRECT
-dynamicMeshFilePath='../../d_23_thickBF/3D_riblet'
+#pass the filepath to the dynamic mesh data via the command line
+dynamicMeshFilePath=$1
 dynamicMeshTime0="$dynamicMeshFilePath/0"
-t_final=15
+t_final=14
 delta_t=0.2
 
 # --- End Definitions Section ---
