@@ -1,14 +1,15 @@
 import numpy as np
 import re
 import math
+import sys
 match_number = re.compile('-?\ *[0-9]+\.?[0-9]*(?:[Ee]\ *-?\ *[0-9]+)?')
 
 
 
 def main():
 
-    t_max = 15
-    delta_t = 0.2
+    t_max = float(sys.argv[1])
+    delta_t = float(sys.argv[2])
 
     for t in np.arange(0, t_max+delta_t, delta_t):
         print(t)
