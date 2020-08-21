@@ -9,6 +9,9 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 match_number = re.compile('-?\ *[0-9]+\.?[0-9]*(?:[Ee]\ *-?\ *[0-9]+)?')
 
+nu = 1e-6 #kinematic viscosity of water
+rho = 1000 #density of water
+mu = nu*rho #dynamic viscosity of water
 
 def main():
 
@@ -81,7 +84,7 @@ def calcDragOverTime(t_max, delta_t):
 
         for t in np.arange(delta_t, t_max+delta_t, delta_t):
             t_string = "{:.1f}".format(t)
-            print(t_string, end=", ")
+            print(t_string)
 
             #read in data
             df_surface = pd.read_csv('surface_data/surface_data-t='+t_string+'.csv')

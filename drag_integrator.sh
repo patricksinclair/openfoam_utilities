@@ -4,3 +4,5 @@
 . ./master_script.sh
 
 python drag_integration_calculator.py $t_final $delta_t
+
+echo "Done"
