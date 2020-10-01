@@ -10,7 +10,7 @@
 #pass the filepath to the dynamic mesh data via the command line
 dynamicMeshFilePath=$1
 dynamicMeshTime0="$dynamicMeshFilePath/0"
-t_final=14
+t_final=20
 delta_t=0.2
 
 # --- End Definitions Section ---
