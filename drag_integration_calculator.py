@@ -89,7 +89,7 @@ def calcDragOverTime(t_max, delta_t):
     with open(total_integral_filename, 'w+') as TI_file, open(surface_integral_filename, 'w+') as SI_file:
 
         TI_file.write('t, F_x, F_y, F_z\n')
-        VI_file.write('t, F_x, F_y, F_z\n')
+        #VI_file.write('t, F_x, F_y, F_z\n')
         SI_file.write('t, F_x, F_y, F_z\n')
 
         for t in np.arange(delta_t, t_max+delta_t, delta_t):
