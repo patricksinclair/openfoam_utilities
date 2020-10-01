@@ -26,8 +26,9 @@ def main():
     t_max = float(sys.argv[1])
     delta_t = float(sys.argv[2])
 
-    t, i, v, s = calcDragOverTime(t_max=t_max, delta_t=delta_t)
-
+    #no longer have v
+    #t, i, v, s = calcDragOverTime(t_max=t_max, delta_t=delta_t)
+    t, i, s = calcDragOverTime(t_max=t_max, delta_t=delta_t)
 
 
 
