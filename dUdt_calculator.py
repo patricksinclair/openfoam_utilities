@@ -209,13 +209,13 @@ def write_dUdt(t, delta_t, t_max):
         #left wall
         file.write("\tleftWall\n")
         file.write("\t{\n")
-        file.write("\t\ttype \t\t slip;\n")
+        file.write("\t\ttype \t\t zeroGradient;\n")
         file.write("\t}\n")
 
         #right wall
         file.write("\trightWall\n")
         file.write("\t{\n")
-        file.write("\t\ttype \t\t slip;\n")
+        file.write("\t\ttype \t\t zeroGradient;\n")
         file.write("\t}\n")
 
         #lower wall

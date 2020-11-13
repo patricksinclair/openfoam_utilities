@@ -57,7 +57,7 @@ def volume_integrand(row):
     U = row['U']
     dUdt = row['dUdt']
     gradU = row['grad_U'].reshape(3, 3)
-    V = row['Volume']
+    dV = row['Volume'] #volume of each cell
 
     #multiply each column of gradU.T by the corresponding U value
     #first column by u, second by v etc.
@@ -66,7 +66,8 @@ def volume_integrand(row):
     #axis = 1 to sum up the rows
     UgradU = np.sum(r, axis=1) #second step of calculating (U.grad)U
 
-    return (dUdt + UgradU)*V
+    #return the integrand of each cell, these will be summed up later on.
+    return (dUdt + UgradU)*dV
 
 
 def calcDragOverTime(t_max, delta_t):

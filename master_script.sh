@@ -4,7 +4,11 @@
 
 #START BY MAKING A COPY OF THE DYNAMIC MESH SOURCE DATA INTO A NEW DIRECTORY
 #RUN THIS SCRIPT IN THE NEW COPIED DIRECTORY
-#MAKE SURE dUdt_calculator HAS THE RIGHT BOUNDARY NAMES IN IT
+#MAKE SURE dUdt_calculator HAS THE RIGHT BOUNDARY NAMES IN IT - THIS WILL DEPEND ON WHAT ANGLE OF FLOW YOU'RE USING
+#MAKE SURE THE NAMES ARE CORRECT IN BOTH THE READ AND WRITE METHODS
+#WILL NEED TO MODIFY THE dUdt PYTHON FILE FOR THE 45 DEGREE FLOW.
+#MAKE SURE THAT THE NEW BLOCKMESHDICT FOR THE INTERPOLATED SYSTEM HAS BEEN CREATED WITH THE CORRECT CELL VALUES
+#AND BLOCKMESH HAS BEEN RUN.
 
 #MAKE SURE THAT THE FILEPATH TO THE SOURCE DATA IS CORRECT
 #pass the filepath to the dynamic mesh data via the command line
@@ -32,7 +36,7 @@ setFields
 
 for t in $(seq 0 $delta_t $t_final);
 do
-  #this removes the .0 from certain values of t, so that t is consisten with OpenFOAM
+  #this removes the .0 from certain values of t, so that t is consistent with OpenFOAM directory naming convention
   if [ "${t: -1}" -eq 0 ];
   then
     t=${t::-2}
