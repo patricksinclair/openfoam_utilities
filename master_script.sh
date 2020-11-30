@@ -48,7 +48,8 @@ do
 done
 
 
-#make directories to save the volume/surface integral raw data in, as well as one for the processed integral data
+#make directories to save the alpha/volume/surface integral raw data in, as well as one for the processed integral data
+mkdir alpha_data
 mkdir surface_data
 mkdir volume_data
 mkdir integral_results
