@@ -13,9 +13,9 @@
 #MAKE SURE TIME RANGE AND TIME STEPS ARE CORRECT
 
 delta_t = 0.2
-t_max = 15
+t_max = 20
 n_steps = int(t_max/delta_t)
-directory_name = 'all_surface_data'
+directory_name = 'surface_data'
 
 #### import the simple module from the paraview
 from paraview.simple import *

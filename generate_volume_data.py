@@ -11,7 +11,7 @@
 #MAKE SURE TIME RANGE AND TIME STEPS ARE CORRECT
 
 delta_t = 0.2
-t_max = 15
+t_max = 20
 n_steps = int(t_max/delta_t)
 directory_name = 'volume_data'
 
